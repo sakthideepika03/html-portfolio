@@ -1,0 +1,40 @@
+nav a{
+    color:white;
+    text-decoration: none;
+}
+ul{
+    height:40px;
+    background-color: goldenrod;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+}
+a:hover{
+    color:black;
+    background-color: azure;
+}
+#intro{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: burlywood
+    color: lightblue;
+}
+.btn{
+    height:40px;
+    background-color: darkgray;
+}
+.section{
+    padding: 40px;
+    margin:20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0,1);
+}
+.skills-bar div{
+    height: 20px;
+    border-radius: 20px;
+}
